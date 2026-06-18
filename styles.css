@@ -72,6 +72,20 @@ padding:80px 10%;
     width:100%;
 }
 
+.nav-links.active{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:75px;
+    left:0;
+    width:100%;
+    background:#0f172a;
+    padding:20px 0;
+    gap:20px;
+    text-align:center;
+    z-index:999;
+}
+
 .about-image img{
     width:100%;
     max-width:400px;
