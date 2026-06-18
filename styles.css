@@ -388,13 +388,22 @@ textarea.form-controls{
 /* FOOTER END */
 
 @media(max-width:768px){
-
 .nav-links{
     display:none;
 }
 
-.resume-btn{
-    display:none;
+.nav-links.active{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    top:75px;
+    left:0;
+    width:100%;
+    background:#0f172a;
+    padding:25px 0;
+    gap:25px;
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.1);
 }
 
 .hamburger{
@@ -402,6 +411,10 @@ textarea.form-controls{
     font-size:28px;
     color:white;
     cursor:pointer;
+}
+
+.resume-btn{
+    display:none;
 }
 
 .hero-content{
